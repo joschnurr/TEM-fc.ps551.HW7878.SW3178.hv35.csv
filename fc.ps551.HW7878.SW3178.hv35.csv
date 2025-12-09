@@ -1,0 +1,34 @@
+# type (r[1-9];w;u),circuit,name,comment,QQ,ZZ,PBSB,ID,FIELD,part (m/s),type / templates,divider / values,unit,comment,FIELD,part (m/s),type / templates,divider / values,unit,
+#,PS551,PS551,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+*r,PS551,,,,FC,0900,,,,,,,,,,,,,,,,,,,,,,,,,
+#
+r,,TPU_temperature,Pufferunten,,,,a8f502,Temp_Puffer_unten,,SIN,10,°C,
+
+r,,TBU_temperature,Pufferoben,,,,40f502,Temp_Puffer_oben,,SIN,10,°C,
+
+r,,TFK_temperature,TempZusatzkessel,,,,80f502,Temp_HolzOfen,,SIN,10,°C,
+
+r,,TKO_temperature,Temperatur Dach,,,,a2f502,Temperatur_Dach,,SIN,10,°C
+
+r,,TKR_temperature,Dach_Kollektor_Ruecklauf,,,,50f502,Ruecklauf_Solar_Dach,,SIN,10,°C,
+
+r,,TKO_MAX_temperature,Temp_Kollektor_oben_MAX,,,,2CF602,TKO_MAX_temperature,,SIN,10,°C,,,,,,,,,,,,,,,,,,,
+
+r,,D_KOL_ON,Überhöhung Kollektor zu Ladeziel Ein,,,,DEF502,Charging_Target_DeltaTemp_Collector_On,,UIN,10,K,
+
+r,,D_KOL_OFF,Überhöhung Kollektor zu Ladeziel Aus,,,,E0F502,Charging_Target_DeltaTemp_Collector_Off,,UIN,10,K,
+
+r,,PS_m_Speed_power_factor,mittlere Leistung Solarpumpe,,,,E4F502,PS_Average_Speed,,UIN,10,%,
+
+r,,Betriebsart,Betriebsmodus,,,,96F402,Operating_Mode,,UIN,0=off;1=manual;2=auto,,
+
+r,,PS_Speed_power_factor,Solarpumpe aktuelle Leistung,,,,28F502,PS_Actual_Speed,,UIN,10,%
+
+r,,Solar_Act_Power,Solarleistung aktuell,,,,E8F502,Solar_Actual_Power,,UIN,10,kW,
+
+r,,Solar_Tot_Yield,Solarertrag total,,,,ECF502,Solar_Total_Yield,,UIN,,kWh,,,
+
+r,,PS_gesamt_h_total_increasing,Betriebsstunden Solarpumpe,,,,EEF502,PS_Operating_Hours,,UIN,,h,,,,,
+
+
+
